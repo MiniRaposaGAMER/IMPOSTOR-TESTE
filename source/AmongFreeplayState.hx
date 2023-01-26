@@ -558,7 +558,8 @@ class AmongFreeplayState extends MusicBeatState
 		});
 
 		weeks.push({
-			songs: [["Identity Crisis", "monotone", 'monotone', FlxColor.BLACK, SPECIAL, ['meltdown', 'ejected', 'double-kill', 'defeat', 'boiling-point', 'neurotic', 'pretender'], 0, false]],
+			songs: [
+                                ["Identity Crisis", "monotone", 'monotone', FlxColor.BLACK, SPECIAL, ['meltdown', 'ejected', 'double-kill', 'defeat', 'boiling-point', 'neurotic', 'pretender'], 0, false]],
 			section: 0
 		});
 
@@ -689,6 +690,15 @@ class AmongFreeplayState extends MusicBeatState
 			],
 
 			section: 8
+		});
+
+		weeks.push({
+			songs: [
+				["Triple Trouble", "black", 'black', FlxColor.fromRGB(255, 60, 38), BEANS, [], 666, false],
+				["Double Trouble", "impostor", 'red', FlxColor.fromRGB(255, 60, 38), BEANS, [], 300, false]
+			],
+
+			section: 9
 		});
 
 		return weeks;
