@@ -187,7 +187,7 @@ class AmongFreeplayState extends MusicBeatState
 		portrait.animation.addByIndices('jorsawsee', 'Character', [22], null, 24, true);
 		portrait.animation.addByIndices('warchief', 'Character', [23], null, 24, true);
 		portrait.animation.addByIndices('redmungus', 'Character', [24], null, 24, true);
-		portrait.animation.addByIndices('jair', 'Character', [25], null, 24, true);
+		portrait.animation.addByIndices('bananungus', 'Character', [25], null, 24, true);
 		portrait.animation.addByIndices('powers', 'Character', [26], null, 24, true);
 		portrait.animation.addByIndices('kills', 'Character', [27], null, 24, true);
 		portrait.animation.addByIndices('jerma', 'Character', [28], null, 24, true);
@@ -675,7 +675,7 @@ class AmongFreeplayState extends MusicBeatState
 				["Drippypop", "drippy", 'pop', FlxColor.fromRGB(188, 106, 223), BEANS, [], 425, false],
 				["Crewicide", "dave", 'dave', FlxColor.BLUE, BEANS, [], 450, false],
 				["Monotone Attack", "attack", 'monotoner', FlxColor.WHITE, BEANS, [], 400, false],
-				["Amonguius", "jair", 'red', FlxColor.fromRGB(179, 0, 255), BEANS, [], 500, false]
+				["Amonguius", "jair", 'bananungus', FlxColor.fromRGB(179, 0, 255), BEANS, [], 500, false]
 			],
 
 			section: 7
