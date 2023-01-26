@@ -32,6 +32,7 @@ jobs:
       - name: Install Haxelib
         run: |
           sudo apt-get install libvlc-dev
+                    sudo apt-get install lime
           sudo apt-get install libvlccore-dev
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null --quiet
@@ -59,6 +60,7 @@ jobs:
         run: |
           haxelib setup C:/haxelib
           haxelib install hxcpp > /dev/null --quiet
+                    haxelib install lime
         shell: cmd
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
@@ -84,6 +86,7 @@ jobs:
         run: |
           haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null --quiet
+          haxelib install lime
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
       - name: Compile
