@@ -675,8 +675,7 @@ class AmongFreeplayState extends MusicBeatState
 				["Drippypop", "drippy", 'pop', FlxColor.fromRGB(188, 106, 223), BEANS, [], 425, false],
 				["Crewicide", "dave", 'dave', FlxColor.BLUE, BEANS, [], 450, false],
 				["Monotone Attack", "attack", 'monotoner', FlxColor.WHITE, BEANS, [], 400, false],
-				["Top 10", "top", 'top', FlxColor.RED, BEANS, [], 200, false],
-				["Amonguius", "jair", 'jair', FlxColor.GREEN, BEANS, [], 500, false]
+				["Amonguius", "jair", 'red', FlxColor.fromRGB(179, 0, 255), BEANS, [], 500, false]
 			],
 
 			section: 7
