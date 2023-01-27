@@ -671,7 +671,7 @@ class AmongFreeplayState extends MusicBeatState
 			        ["Infinikill", "black", 'black', FlxColor.fromRGB(255, 60, 38), BEANS, [], 666, false],
 				["Monochrome", "impostor", 'red', FlxColor.fromRGB(255, 60, 38), BEANS, [], 666, false],
 				["Triple Trouble", "black", 'black', FlxColor.fromRGB(255, 60, 38), BEANS, [], 666, false],
-				["Double Trouble", "impostor", 'red', FlxColor.fromRGB(255, 60, 38), BEANS, [], 300, false]
+				["Double Trouble", "impostor", 'red', FlxColor.fromRGB(255, 60, 38), BEANS, [], 300, false],
 				["Idk", "idk", 'idk', FlxColor.fromRGB(255, 140, 177), BEANS, [], 350, false],
 				["Monotone Attack", "attack", 'monotoner', FlxColor.WHITE, BEANS, [], 400, false],
 				["Drippypop", "drippy", 'pop', FlxColor.fromRGB(188, 106, 223), BEANS, [], 425, false],
