@@ -6346,6 +6346,7 @@ class PlayState extends MusicBeatState
 				#end
 			}
 		}
+					}
 
 		if (FlxG.keys.justPressed.SEVEN)
 		{
