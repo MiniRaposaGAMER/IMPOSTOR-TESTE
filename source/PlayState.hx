@@ -6347,7 +6347,6 @@ class PlayState extends MusicBeatState
 			}
 		}
 
-		#if debug
 		if (FlxG.keys.justPressed.SEVEN && !endingSong && !inCutscene)
 		{
 			persistentUpdate = false;

@@ -360,7 +360,7 @@ class MainMenuState extends MusicBeatState
 				FlxG.switchState(new OptionsState());
 				trace("Options Menu Selected");
 			case 'Credits':
-			        MusicBeatState.switchState(new ChartingState());
+                                FlxG.switchState(new AmongCreditsState());
 				trace("Gallery Menu Selected");
 		}		
 	}
