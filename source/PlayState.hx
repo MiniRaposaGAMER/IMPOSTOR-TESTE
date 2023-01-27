@@ -6346,9 +6346,9 @@ class PlayState extends MusicBeatState
 				#end
 			}
 		}
-					}
 
-		if (FlxG.keys.justPressed.SEVEN)
+		#if debug
+		if (FlxG.keys.justPressed.SEVEN && !endingSong && !inCutscene)
 		{
 			persistentUpdate = false;
 			paused = true;
@@ -6358,9 +6358,8 @@ class PlayState extends MusicBeatState
 
 			#if desktop
 			DiscordClient.changePresence("Chart Editor", null, null, true);
-						}
 			#end
-				
+		}
 
 		if (FlxG.keys.justPressed.SIX && !endingSong && !inCutscene)
 			{

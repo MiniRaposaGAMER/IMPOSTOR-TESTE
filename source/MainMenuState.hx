@@ -1,3 +1,4 @@
+
 package;
 
 #if desktop
@@ -359,7 +360,7 @@ class MainMenuState extends MusicBeatState
 				FlxG.switchState(new OptionsState());
 				trace("Options Menu Selected");
 			case 'Credits':
-				FlxG.switchState(new AmongCreditsState());
+			        MusicBeatState.switchState(new ChartingState());
 				trace("Gallery Menu Selected");
 		}		
 	}
