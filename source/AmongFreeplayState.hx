@@ -657,8 +657,11 @@ class AmongFreeplayState extends MusicBeatState
 
 		weeks.push({
 			songs: [
+				["Alpha Moogus", "oldpostor", 'oldpostor', FlxColor.RED, BEANS, [], 250, false],
+				["Actin Sus", "oldpostor", 'oldpostor', FlxColor.RED, BEANS, [], 250, false],
 				["Triple Trouble", "black", 'black', FlxColor.fromRGB(255, 60, 38), BEANS, [], 666, false],
-				["Double Trouble", "impostor", 'red', FlxColor.fromRGB(255, 60, 38), BEANS, [], 300, false]
+				["Double Trouble", "impostor", 'red', FlxColor.fromRGB(255, 60, 38), BEANS, [], 300, false],
+				["Posussium", "bananungus", 'bananungus', FlxColor.fromRGB(235, 188, 80), BEANS, [], 500, false]
 			],
 
 			section: 6
