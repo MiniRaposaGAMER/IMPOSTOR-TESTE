@@ -660,9 +660,10 @@ class AmongFreeplayState extends MusicBeatState
 				["Alpha Moogus", "oldpostor", 'oldpostor', FlxColor.RED, BEANS, [], 250, false],
 				["Actin Sus", "oldpostor", 'oldpostor', FlxColor.RED, BEANS, [], 250, false],
 				["Boing", "impostor3", 'green', FlxColor.fromRGB(0, 255, 0), FROM_STORY_MODE, ['reactor'], 0, false],
+			        ["Infinikill", "black", 'black', FlxColor.fromRGB(255, 60, 38), BEANS, [], 666, false],
+				["Monochrome", "impostor", 'red', FlxColor.fromRGB(255, 60, 38), BEANS, [], 666, false],
 				["Triple Trouble", "black", 'black', FlxColor.fromRGB(255, 60, 38), BEANS, [], 666, false],
-				["Double Trouble", "impostor", 'red', FlxColor.fromRGB(255, 60, 38), BEANS, [], 300, false],
-				["Posussium", "bananungus", 'bananungus', FlxColor.fromRGB(235, 188, 80), BEANS, [], 500, false]
+				["Double Trouble", "impostor", 'red', FlxColor.fromRGB(255, 60, 38), BEANS, [], 300, false]
 			],
 
 			section: 6
@@ -678,7 +679,6 @@ class AmongFreeplayState extends MusicBeatState
 				["Esculent", "dead", 'esculent', FlxColor.BLACK, BEANS, [], 350, false],
 				["Drippypop", "drippy", 'pop', FlxColor.fromRGB(188, 106, 223), BEANS, [], 425, false],
 				["Crewicide", "dave", 'dave', FlxColor.BLUE, BEANS, [], 450, false],
-				["Monotone Attack", "attack", 'monotoner', FlxColor.WHITE, BEANS, [], 400, false],
 				["Amonguius", "jair", 'bananungus', FlxColor.fromRGB(179, 0, 255), BEANS, [], 500, false]
 			],
 
@@ -687,6 +687,7 @@ class AmongFreeplayState extends MusicBeatState
 
 		weeks.push({
 			songs: [
+				["Monotone Attack", "attack", 'monotoner', FlxColor.WHITE, BEANS, [], 400, false],
 				["Chippin", "cvp", 'chips', FlxColor.fromRGB(255, 60, 38), BEANS, [], 300, false],
 				["Chipping", "cvp", 'chips', FlxColor.fromRGB(255, 60, 38), BEANS, [], 300, false],
 				["Torture", "ziffy", 'torture', FlxColor.fromRGB(188, 106, 223), SPECIAL, ['chippin', 'chipping'], 0, false]
