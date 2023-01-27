@@ -6347,6 +6347,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 
+		#if debug
 		if (FlxG.keys.justPressed.SEVEN && !endingSong && !inCutscene)
 		{
 			persistentUpdate = false;
@@ -6357,11 +6358,12 @@ class PlayState extends MusicBeatState
 
 			#if desktop
 			DiscordClient.changePresence("Chart Editor", null, null, true);
+			#end
 		}
 
 		if (FlxG.keys.justPressed.SIX && !endingSong && !inCutscene)
 			{
-				cpuControlled = !cpuControlled; //sorry i just dont wanna play the song each time i change a small thing
+			MusicBeatState.switchState(new ChartingState());
 			}
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
