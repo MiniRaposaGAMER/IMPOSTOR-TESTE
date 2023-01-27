@@ -6358,9 +6358,9 @@ class PlayState extends MusicBeatState
 
 			#if desktop
 			DiscordClient.changePresence("Chart Editor", null, null, true);
+						}
 			#end
-		}
-							}
+				
 
 		if (FlxG.keys.justPressed.SIX && !endingSong && !inCutscene)
 			{
