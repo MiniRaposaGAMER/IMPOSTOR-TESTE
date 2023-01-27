@@ -6357,14 +6357,12 @@ class PlayState extends MusicBeatState
 
 			#if desktop
 			DiscordClient.changePresence("Chart Editor", null, null, true);
-			#end
 		}
 
 		if (FlxG.keys.justPressed.SIX && !endingSong && !inCutscene)
 			{
 				cpuControlled = !cpuControlled; //sorry i just dont wanna play the song each time i change a small thing
 			}
-		#end
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
