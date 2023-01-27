@@ -6365,6 +6365,7 @@ class PlayState extends MusicBeatState
 			{
 			MusicBeatState.switchState(new ChartingState());
 			}
+		#end
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
