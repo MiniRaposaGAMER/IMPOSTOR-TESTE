@@ -517,9 +517,9 @@ class AmongFreeplayState extends MusicBeatState
 		// jesus christ man this cant get near the coherent code
 		weeks.push({
 			songs: [
-				["Sussus Moogus", "impostor", 'red', FlxColor.RED, FROM_STORY_MODE, ['sussus-moogus'], 0, false],
-				["Sabotage", "impostor", 'red', FlxColor.RED, FROM_STORY_MODE, ['sabotage'], 0, false],
-				["Meltdown", "impostor2", 'red', FlxColor.RED, FROM_STORY_MODE, ['meltdown'], 0, false]
+				["Idk", "idk", 'idk', FlxColor.fromRGB(255, 140, 177), FROM_STORY_MODE, ['idk'], 0, false],
+				["Idk2", "idk", 'idk', FlxColor.fromRGB(255, 140, 177), ['idk2'], 0, false],
+				["Kid", "idk", 'idk', FlxColor.fromRGB(255, 140, 177), ['kid'], 0, false]
 			],
 
 			section: 0
